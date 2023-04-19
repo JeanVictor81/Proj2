@@ -1,0 +1,219 @@
+body{
+    margin: 0px;
+    height: 5082px;
+    background: #EDEDED;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonte/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.header{
+    position: absolute;
+    top: 0%;
+    left: auto;
+    right: 0%;
+    width: 100%;
+    height: 25.5%;
+    background-color: #ffffff;
+}
+.fixedHeader{
+    position: fixed;
+    width: 100%;
+    height: 7.1%;
+    background-color: rgba(252, 74, 26, 0.85);
+    z-index: 200;
+}
+.fixedHeader button{
+    position: relative;
+    left: 80%;
+    top: 0%;
+    height: 100%;
+    font-family: 'Inter';
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+}
+.fixedHeader button:hover{
+    transition: 0.5s;
+    background-color: #F7B733;
+}
+.fixedHeader img{
+    position: relative;
+    height: 60%;
+    width: 2%;
+    left: 81%;
+    top: 25%;
+    cursor: pointer;
+}
+.fixedHeader img:nth-child(4){
+    position: relative;
+    left: 81.7%;
+}
+.fixedHeader:before{
+    content: "";
+    height: 100%;
+    width: 2%;
+    position: relative;
+    left: 80%;
+    top: 50%;
+}
+.fixedHeader::after{
+    position: absolute;
+    content: "|";
+    left: 83.35%;
+    top: 30%;
+}
+.menu{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background-color: #ffffff;
+    top: 7.1%;
+}
+.menu img{
+    position: relative;
+    height: 37%;
+    width: 11.3%;
+    left: 1.1%;
+    top: 12%;
+}
+.navegadores{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 35%;
+    top: 25%;
+    left: 0%;
+    gap: 5%;
+    
+}
+.navegadores button{
+    position: relative;
+    width: 6.6%;
+    height: 100%;
+    left: 17.1%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+}
+.navegadores button:nth-child(1){
+    background-color: #F7B733;
+}
+.navegadores button:nth-child(2){
+    width: 11%;
+}
+.navegadores button:nth-child(3){
+    width: 9%;
+}
+.navegadores button:nth-child(4){
+    width: 9%;
+}
+.navegadores button:hover{
+    background-color: #FC4A1AD9;
+}
+.opcoes{
+    position: relative;
+    display: flex;
+    height: 20%;
+    width: 10%;
+    left: 83%;
+    top: -55%;
+    gap: 10%;
+}
+.opcoes img{
+    position: relative;
+    width: 15%;
+    height: 80%;
+    left: 30%;
+}
+.container{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 30%;
+    left: 0%;
+}
+.galeriaWrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+}
+.galeria{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 330%;
+    height: 100%;
+    gap: 5%;
+}
+.galeria img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0.15%;
+    border-radius: 10px;
+}
+.arrow-left, .arrow-right{
+    position: absolute;
+    height: 100%;
+    width: 2%;
+    z-index: 100;
+    left: 0%;
+    right: auto;
+    top: 0%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.arrow-right{
+    position: absolute;
+    right: 0;
+    left: auto;
+}
+.galeriaWrapper{
+    overflow: hidden;
+}
+.containerTipo{
+    position: absolute;
+    width: 100%;
+    height: 28%;
+    top: 115%;
+}
+.galeriaWrapperTipo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+}
+.galeriaTipo{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 120%;
+    height: 100%;
+    gap: 4%;
+}
+.galeriaTipo img{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    left: 3%;
+    top: 15%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.galeriaWrapperTipo{
+    overflow-x: hidden;
+}
+.containerTipo h4{
+    position: absolute;
+    font-family: 'Inter';
+    left: 45%;
+    top: -70%;
+    font-size: 300%;
+    letter-spacing: 4px;
+    text-decoration: underline;
+}
