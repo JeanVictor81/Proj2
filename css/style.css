@@ -499,3 +499,109 @@ body{
     text-decoration: underline;
 
 }
+.sobreNos{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 80%;
+    top: 650%;
+}
+.textoSobreNos{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    left: 5%;
+}
+.bannerSobreNos{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    left: 12%;
+}
+.textoSobreNosImg{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    top: 25%;
+}
+.bannerSobreNosImg{
+    position: relative;
+    width: 100%;
+    height: 70%;
+    top: 20%;
+}
+.tituloSobreNos{
+    position: absolute;
+    top: 0%;
+    font-size: 200%;
+    left: 40%;
+    text-decoration: underline;
+}
+.avaliacoes{
+    position: absolute;
+    display: flex;
+    top: 740%;
+    width: 100%;
+    height: 50%;
+    gap: 5%;
+}
+.avaliacoesClientes{
+    position: relative;
+    display: flex;
+    width: 90%;
+    height: 100%;
+    left: 4.5%;
+    gap: 5%;
+}
+.cliente{
+    position: relative;
+    width: 55%;
+    height: 100%;
+    left: 0%;
+    background-color: #4ABDAC;
+}
+.NomeCliente{
+    position: relative;
+    font-size: 200%;
+    left: 2%;
+}
+.avaliacaoEscritaCliente{
+    position: relative;
+    font-size: 110%;
+    width: 85%;
+    left: 2%;
+}
+.estrelaAvaliacao{
+    position: relative;
+    left: 2%;
+}
+.dataAvaliacao{
+    position: relative;
+    left: 2%;
+}
+.tituloAvaiacoes{
+    position: absolute;
+    left: 37%;
+    top: -35%;
+    font-size: 200%;
+    letter-spacing: 2%;
+    font-family: 'Inter';
+    text-decoration: underline;
+}
+.feedback{
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    top: 800%;
+    left: 41%;
+}
+.buttonFeedback{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    background-color: #F7B733;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
