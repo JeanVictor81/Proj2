@@ -69,7 +69,7 @@ body{
 .fixedHeader::after{
     position: absolute;
     content: "|";
-    left: 83.35%;
+    left: 83.7%;
     top: 30%;
 }
 .menu{
@@ -188,69 +188,314 @@ body{
     position: absolute;
     width: 100%;
     height: 28%;
-    top: 115%;
-}
-.galeriaWrapperTipo{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow-x: auto;
+    top: 120%;
+    left: 0%;
 }
 .galeriaTipo{
     display: flex;
-    flex-flow: row nowrap;
-    width: 120%;
+    width: 100%;
     height: 100%;
-    gap: 4%;
+    gap: 3.5%;
 }
 .galeriaTipo img{
     position: relative;
-    width: 140px;
-    height: 140px;
-    left: 3%;
-    top: 15%;
+    left: 3.2%;
+    top: 2%;
     border-radius: 50%;
+    height: 140px;
+    width: 140px;
     cursor: pointer;
-}
-.galeriaWrapperTipo{
-    overflow-x: hidden;
 }
 .containerTipo h4{
     position: absolute;
-    font-family: 'Inter';
+    height: 50%;
     left: 45%;
-    top: -70%;
-    font-size: 300%;
-    letter-spacing: 4px;
+    top: -55%;
+    font-size: 200%;
     text-decoration: underline;
+    font-family: 'Inter';
+    letter-spacing: 3px;
 }
-.descricaoTipo{
+.promocao{
     position: absolute;
-    display: flex;
-    width: 98%;
-    height: 10%;
-    gap: 12%;
+    width: 100%;
+    height: 70%;
     left: 0%;
-    top: 90%;
+    top: 170%;
 }
-.descricaoTipo p{
+.floresPromocao{
+    position: relative;
+    display: flex;
+    width: 95%;
+    height: 85%;
+    top: 15%;
+    left: 2%;
+    gap: 7%;
+}
+.flor{
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.imagemPrincipalPromocao{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+}
+.nomeFloresPromocao{
+    position: relative;
     font-family: 'Antonio';
-    position: relative;
-    left: 5.5%;
-}
-.descricaoTipo p:nth-child(4){
-    position: relative;
-    left: 4.5%;
-}
-.descricaoTipo p:nth-child(5){
-    position: relative;
+    width: 60%;
+    top: -5%;
     left: 2%;
 }
-.descricaoTipo p:nth-child(6){
+.precoinicialPromocao{
     position: relative;
-    left: -1%;
+    left: 45%;
+    top: -13%;
+    text-decoration: line-through;
+    color: #B40000;
+    font-size: 100%;
+    width: 35%;
+    font-weight: bold;
+    
 }
-.descricaoTipo p:nth-child(7){
+.coracaoPormocao{
     position: relative;
-    left: -2%;
+    width: 8%;
+    height: 6%;
+    left: 2%;
+    top: -8%;
+    
+}
+.precoFinalPromocao{
+    position: relative;
+    top: 77%;
+    left: 44%;
+    top: -20%;
+    font-size: 145%;
+    font-weight: bold;
+    width: 60%;
+}
+.tituloPromocao{
+    position: absolute;
+    left: 45%;
+    top: -8%;
+    font-size: 200%;
+    font-family: 'Inter';
+    text-decoration: underline;
+}
+.maisProcuradasCasamento{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: 260%;
+}
+.tituloMaisProcuradas{
+    position: absolute;
+    left: 43%;
+    top: -5%;
+    font-size: 200%;
+    font-family: 'Antonio';
+    text-decoration: underline;
+}
+.tituloCasamento{
+    position: absolute;
+    font-family: 'Inter';
+    top: 10%;
+    left: 1%;
+}
+.floresMaisProcuradasCasamento{
+    position: relative;
+    display: flex;
+    width: 95%;
+    height: 75%;
+    top: 20%;
+    left: 2%;
+    gap: 5%;
+}
+.florCasamento{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+    left: 2%;
+    background-color: #ffffff;
+}
+.imagemPrincipalCasamento{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+.nomeFloresCasamento{
+    position: relative;
+    font-family: 'Antonio';
+    font-size: 110%;
+    left: 2%;
+    width: 90%;
+    top: 2%;
+}
+.coracaoCasamento{
+    position: relative;
+    width: 8%;
+    height: 5%;
+    left: 2%;
+    top: 5%;
+}
+.precoNormalCasamento{
+    position: relative;
+    left: 58%;
+    width: 40%;
+    font-size: 150%;
+    font-weight: bolder;
+}
+.precoParceladoCasamento{
+    position: relative;
+    left: 57%;
+    width: 40%;
+    top: -5%;
+    font-size: 90%;
+    color: #B40000;
+}
+.maisProcuradasCongresso{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: 360%;
+}
+.floresMaisProcuradasCongresso{
+    position: relative;
+    display: flex;
+    width: 95%;
+    height: 75%;
+    top: 20%;
+    left: 2%;
+    gap: 5%;
+}
+.florCongresso{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+    left: 2%;
+    background-color: #ffffff;
+}
+.imagemPrincipalCongrersso{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+.nomeFloresCongresso{
+    position: relative;
+    font-family: 'Antonio';
+    font-size: 110%;
+    left: 2%;
+    width: 90%;
+    top: 0%;
+}
+.coracaoCongresso{
+    position: relative;
+    width: 8%;
+    height: 5%;
+    left: 2%;
+    top: 5%;
+}
+.precoNormalCongresso{
+    position: relative;
+    left: 58%;
+    width: 40%;
+    font-size: 150%;
+    font-weight: bolder;
+}
+.precoParceladoCongresso{
+    position: relative;
+    left: 57%;
+    width: 40%;
+    top: -5%;
+    font-size: 90%;
+    color: #B40000;
+}
+.tituloCongresso{
+    position: absolute;
+    left: 1%;
+    top: 2%;
+    font-family: 'Inter';
+}
+.informacoes{
+    position: absolute;
+    display: flex;
+    top: 460%;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    place-items: center;
+    gap: 3%;
+}
+.iconeInformacoes{
+    position: relative;
+    width: 5%;
+    height: 30%;
+    left: 20%;
+}
+.fraseInformativo{
+    position: relative;
+    width: 18%;
+    height: 6%;
+    left: 20%;
+    color: #B0AFAF;
+}
+.ofertasEspeciais{
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    left: 0%;
+    top: 500%;
+}
+.bannersOfertasEspeciais{
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 90%;
+    left: 4.5%;
+    gap: 5%;
+    border-radius: 10px;
+}
+.bannersOfertasEspeciais img{
+    border-radius: 10px;
+}
+.amarilisBannerInformativo{
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+.anturioBannerInformativo{
+    position: relative;
+    width: 50%;
+    height: 95%;
+}
+.parceiroBannerInformativo{
+    position: absolute;
+    left: 1%;
+    top: 57%;
+    width: 30%;
+    height: 30%;
+
+}
+.alpiniaBannerInformativo{
+    position: absolute;
+    left: 34%;
+    top: 57%;
+    width: 30%;
+    height: 30%;
+}
+.tituloOfertasEspeciais{
+    position: absolute;
+    left: 38%;
+    top: -12%;
+    font-size: 220%;
+    text-decoration: underline;
+
 }
